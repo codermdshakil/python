@@ -18,4 +18,7 @@ print(text.swapcase())
 #capitalize() convert first character Upper in string
 print(text.capitalize())
 
-
+#Remove whitespaces 
+my_string = "   Hello, world!   "
+stripped_string = my_string.strip() 
+print(stripped_string)
