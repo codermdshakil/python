@@ -34,11 +34,25 @@
 ## Delete a character
 # ----------------------
 
-string1 = "Shakil Ahmed"
-print(string1) # Shakil Ahmed
-# delete a character in index [2]
-list1 = list(string1)
-del list1[2]
-deleted_string = "".join(list1)
-print(deleted_string) #Shkil Ahmed - delete 2 index value
+# string1 = "Shakil Ahmed"
+# print(string1) # Shakil Ahmed
+# # delete a character in index [2]
+# list1 = list(string1)
+# del list1[2]
+# deleted_string = "".join(list1)
+# print(deleted_string) #Shkil Ahmed - delete 2 index value
 
+## Delete entire string
+# string1 = "Shakil"
+# print(string1)
+# del string1 
+# this is not good to delete string value but forcefully can posible 
+# list1 = list(string1)
+# list1[0] = ' '
+# list1[1]= ' '
+# list1[2] = ' '
+# list1[3] = ' '
+# list1[4] = ' '
+# list1[5] =  ' '
+# string2 = "".join(list1)
+# print(string2)
