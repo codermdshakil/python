@@ -1,6 +1,6 @@
 # 1. Update a character
-strings = "Hello, I'm Shakil"
-print(strings)
+# strings = "Hello, I'm Shakil"
+# print(strings)
 
 # Updating a character of the String
 ## As python strings are immutable, they don't support item updation directly
@@ -20,6 +20,11 @@ print(strings)
 # string3 = strings[0:2] + 'p' + strings[3:] 
 # print(string3) # Heplo, I'm Shakil
 
+# 2. Update entire string
+# In Python Programming, As Python strings are immutable in nature, we cannot update the existing string. We can only assign a completely new value to the variable with the same name.
+string1 = "I want to be a teacher"
+string1 = "I want to be a programmer"
+print(string1)
 
 
  
