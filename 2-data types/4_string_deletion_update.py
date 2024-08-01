@@ -31,5 +31,14 @@
 # string1 = "I want to be a programmer"
 # print(string1)
 
+## Delete a character
+# ----------------------
 
- 
+string1 = "Shakil Ahmed"
+print(string1) # Shakil Ahmed
+# delete a character in index [2]
+list1 = list(string1)
+del list1[2]
+deleted_string = "".join(list1)
+print(deleted_string) #Shkil Ahmed - delete 2 index value
+
