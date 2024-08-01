@@ -13,3 +13,8 @@ string2 = "{1} {0} {3} {2}".format("Name", "My", "Ahmed", "Shakil")
 # 0   1   2      3      
 # print(string2)
 
+## Keyword formetting
+string3 = "{m} {n} {i} {s} {a} ".format(m="My", i="is" , s="Shakil", n="Name", a="Ahmed")
+print(string3)
+
+
