@@ -12,6 +12,11 @@ strings = "Shakil"
 
 
 # 2. Reversed string using string slice method
-print(strings[::-1])
+# print(strings[::-1]) #likahS
+
+# Reversed using build in function
+# my_name = "".join(reversed(strings))
+# print(my_name) #likahS
+
 
 
