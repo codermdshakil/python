@@ -1,3 +1,6 @@
+
+# Note: Every string method in Python does not change the original string instead returns a new string with the changed attributes. 
+
 text = "Shaki AhMed"
 
 # upper() function to convert string to upper case
