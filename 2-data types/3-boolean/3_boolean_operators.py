@@ -20,16 +20,24 @@
 #     print("True")
 
 ### Boolean AND Operator : Both value must be True then True otherwise  if one value is False then result false
-a = 0
-b = 2
-c = 4
+# a = 0
+# b = 2
+# c = 4
 
-if a> b and b < c:
-    print(True)
-else:
-    print(False)
+# if a> b and b < c:
+#     print(True)
+# else:
+#     print(False)
 
-if a and b and c:
-    print("All the number boolean value as True")
-else:
-    print("Atleast one number has boolean value as False")
+# if a and b and c:
+#     print("All the number boolean value as True")
+# else:
+#     print("Atleast one number has boolean value as False")
+
+### Boolean NOT Operator : !true = false,  !false = true
+# a = 0
+  
+# if not a: 
+#     print("Boolean value of a is False")
+# else:
+#     print("Boolean value is true")
