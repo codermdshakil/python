@@ -1,0 +1,22 @@
+## Decimal
+import decimal
+
+# a = 1.1
+# b = 2.2
+# c = a+b
+# print(c) # 3.3000000000000003
+
+# a = 1.2
+# b = 1.0
+# c = a-b
+
+# print(c) #0.19999999999999996
+
+### Solved these problem
+a = decimal.Decimal("1.1")
+b = decimal.Decimal("2.2")
+c = a + b
+print(c) # 3.3
+
+
+
