@@ -68,3 +68,14 @@
 # y = ["a", "b", "c", "d"] 
 
 # print(x is y)
+
+### In Operator
+# in operator checks for the membership i.e. checks if the value is present in a list, tuple, range, string.
+
+# Create a list of animals
+# animals = ['lion', 'hourse', 'tiger', 'dog']
+
+# if 'tiger' in animals:
+#     print("Yes Tiger is found in Animals list")
+# else:
+#     print("No Tiger is Not Found in Animals list")
