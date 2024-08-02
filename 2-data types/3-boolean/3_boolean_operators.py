@@ -41,3 +41,14 @@
 #     print("Boolean value of a is False")
 # else:
 #     print("Boolean value is true")
+
+### Boolean Equal Operator 
+
+a = 5
+b = 10
+
+if a == b:
+    print("Yes a and b are Equal")
+else:
+    print("No they are not Same!")
+
