@@ -1,8 +1,7 @@
 # Inisial List is black
 List = []
 # print(List)
-### Using append function we can append value to the list. append function append elements in the list fast 
-### Append is just added value in the list 
+### Method 1 : append() -> append() method only works for the addition of elements at the end of the List
 
 # List.append(10)
 # List.append(20)
