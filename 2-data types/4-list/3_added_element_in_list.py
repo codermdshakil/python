@@ -27,12 +27,12 @@
 # print(List)
 
 ### Method 2 : Insert() -> Insert take two arguments (position, value). using insert function we can insert a value in a specific index of list
-List = [1,2,3,4]
-print("Inisial List :", List)
+# List = [1,2,3,4]
+# print("Inisial List :", List)
 # adding a elements a specific position
-List.insert(0, 10)
-List.insert(3, "Shakil")
-print(List)
+# List.insert(0, 10)
+# List.insert(3, "Shakil")
+# print(List)
 
  
 
