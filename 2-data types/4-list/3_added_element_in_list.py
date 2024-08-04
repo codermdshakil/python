@@ -34,6 +34,10 @@
 # List.insert(3, "Shakil")
 # print(List)
 
- 
+### Method 3: Using extend() method :  extend(), this method is used to add multiple elements at the same time at the end of the list 
+# Note: append() and extend() methods can only add elements at the end.
 
-
+List = [1,2,3,4,5]
+List.extend([6,7,8,9])
+List.extend(['Sagor', 'Shakil', 'Saykot', 'Siam'])
+print(List)
