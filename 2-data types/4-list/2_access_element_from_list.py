@@ -21,4 +21,23 @@ List = [1, 2, 'Shakil', 4, 'For', 6, 'Ahmed']
 # print(List[-5]) # Shakil
 
 ## Size of List
-print(len(List)) # 7 
+# print(len(List)) # 7 
+
+## Input taking from from list
+# strings = input("Enter element Separatedly : ")
+
+# # split the strings and store it to list 
+# List1 = strings.split()
+# print("THe list is  :", List1)
+# print the list ['shakil', 'noyon', 'nadim']
+
+
+## Input size of the list
+n = int(input("Enter size of list : "))
+# store integers in a list using map,
+lst = list(map(int, input("Enter list elements :").split()))[:n] # [:n] using this we can limited list elements
+# Print the list 
+print(lst)
+
+
+
