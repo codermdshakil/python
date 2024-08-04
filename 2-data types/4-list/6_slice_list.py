@@ -9,10 +9,10 @@
 ## To print the whole list in reverse order, use  : [::-1]
 
 # Creating a List
-# List = ['G', 'E', 'E', 'K', 'S', 'F',
-#         'O', 'R', 'G', 'E', 'E', 'K', 'S']
-# print("Initial List: ")
-# print(List)
+List = ['G', 'E', 'E', 'K', 'S', 'F',
+        'O', 'R', 'G', 'E', 'E', 'K', 'S']
+print("Initial List: ")
+print(List)
 
 # # using Slice operation
 # # range based slice
@@ -31,5 +31,20 @@
 # # print(Sliced_List)
 
 
+### Negative index List slicing
 
+# to a pre-defined point using Slice 
+Sliced_List = List[:-6]
+print(Sliced_List)
+
+# using negative index List slicing
+Sliced_List = List[-6:-1]
+print("\nElements sliced from index -6 to -1")
+print(Sliced_List)
+
+# Printing elements in reverse
+# using Slice operation
+Sliced_List = List[::-1]
+print("\nPrinting List in reverse: ")
+print(Sliced_List)
 
