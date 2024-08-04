@@ -1,5 +1,5 @@
 # Inisial List is black
-List = []
+# List = []
 # print(List)
 ### Method 1 : append() -> append() method only works for the addition of elements at the end of the List
 
@@ -11,20 +11,29 @@ List = []
 # print(List)
 
 ### Added elements to the list using Iterator
-for i in range(1, 5):
-    List.append(i)
-print("Print list after adding elements 1 - 4 : ")
-print(List)
+# for i in range(1, 5):
+#     List.append(i)
+# print("Print list after adding elements 1 - 4 : ")
+# print(List)
 
 
 ### Adding Tuples to the list
-List.append((5, 10))
-print(List)
+# List.append((5, 10))
+# print(List)
 
 ### Adding list in list
-List1 = ['Shakil', 'Ahmed']
-List.append(List1)
+# List1 = ['Shakil', 'Ahmed']
+# List.append(List1)
+# print(List)
+
+### Method 2 : Insert() -> Insert take two arguments (position, value). using insert function we can insert a value in a specific index of list
+List = [1,2,3,4]
+print("Inisial List :", List)
+# adding a elements a specific position
+List.insert(0, 10)
+List.insert(3, "Shakil")
 print(List)
 
+ 
 
 
