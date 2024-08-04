@@ -15,7 +15,10 @@
 
 ## Access elements using Negative Index
 List = [1, 2, 'Shakil', 4, 'For', 6, 'Ahmed']
-print(List[-1]) # Ahmed
-print(List[-2]) # 6
-print(List[-3]) # For
-print(List[-5]) # Shakil
+# print(List[-1]) # Ahmed
+# print(List[-2]) # 6
+# print(List[-3]) # For
+# print(List[-5]) # Shakil
+
+## Size of List
+print(len(List)) # 7 
