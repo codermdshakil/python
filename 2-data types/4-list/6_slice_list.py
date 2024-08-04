@@ -26,9 +26,9 @@ print(List)
 # # print(Sliced_List)
 
 
-# # beginning till end
+## beginning till end
 # Sliced_List = List[:]
-# # print(Sliced_List)
+## print(Sliced_List)
 
 
 ### Negative index List slicing
