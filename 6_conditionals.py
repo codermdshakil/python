@@ -13,6 +13,8 @@
 #     print("You can't get driving lysence")
 
 
+## Example 1 : if, elif, else
+
 marks = 75
 
 if marks >= 95 and marks <= 100:
@@ -34,3 +36,19 @@ elif marks < 33:
 else:
     print("Enter your number again")
    
+
+## Example 2 : if, elif, else
+# Trafic lights code
+
+light = input("light : ")
+
+if (light == "red"):
+    print("Stop")
+elif (light == "green"):
+    print("Go")
+elif (light == "yellow"):
+    print("Look")
+else:
+    print("Light is Broken")
+    
+    
