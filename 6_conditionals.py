@@ -55,13 +55,14 @@
     
 ## Single line Condition or Ternary Operator
 
+# food = input("food : ")
+# eat = "YES" if food == "cake" else "NO"
+# print(eat)
+
 food = input("food : ")
-eat = "YES" if food == "cake" else "NO"
-print(eat)
+print("Sweet") if food == "cake" or food == "jalebi" else print("not sweet")
 
 
-
-    
 """
 AND, OR rules
 
