@@ -51,4 +51,22 @@ elif (light == "yellow"):
 else:
     print("Light is Broken")
     
-    
+"""
+AND, OR rules
+
+  AND (if one value is false result is false)
+------
+TT -> T
+FT -> F
+TF -> F
+FF -> F
+ 
+  OR (if one value is true then result is true)
+-----
+TT -> T
+FT -> T
+TF -> T
+FF -> F
+
+
+"""
