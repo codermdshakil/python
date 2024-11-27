@@ -59,8 +59,34 @@
 # eat = "YES" if food == "cake" else "NO"
 # print(eat)
 
-food = input("food : ")
-print("Sweet") if food == "cake" or food == "jalebi" else print("not sweet")
+# food = input("food : ")
+# print("Sweet") if food == "cake" or food == "jalebi" else print("not sweet")
+
+
+## Clever If / Ternary Operator
+"""
+syntax
+<var> = (false_value, true_value) [<condition>]
+Example
+"""
+
+# age = int(input("Age : "))
+# vote = ("NO", "YES") [age >= 18]
+# print(vote)
+
+sal = float(input("Salary : "))
+tax = sal * (0.1, 0.2) [sal <= 50000]
+print(tax)
+
+
+
+
+## Best practice
+# Simple instructions
+# one instructionper task
+# short & meaningful variable name
+# use approcpriate comments
+# avoid complex expressions
 
 
 """
