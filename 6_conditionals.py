@@ -53,7 +53,12 @@
     
     
     
-    
+## Single line Condition or Ternary Operator
+
+food = input("food : ")
+eat = "YES" if food == "cake" else "NO"
+print(eat)
+
 
 
     
