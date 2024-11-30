@@ -15,8 +15,18 @@
 
 # Practice problem - 3
 
-a = float(input("Enter First : "))
-b = float(input("Enter Second : "))
+# a = float(input("Enter First : "))
+# b = float(input("Enter Second : "))
 
-print("AVG = ",  (a+b) / 2)
+# print("AVG = ",  (a+b) / 2)
 
+
+# Practice Problem 4
+
+a = int(input("Enter a : "))
+b = int(input("Enter b : "))
+
+if a >= b:
+    print("True")
+else:
+    print("False")
