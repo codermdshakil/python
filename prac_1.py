@@ -6,3 +6,8 @@
 # sum = num1 + num2
 # print( "Sum : ", sum)
 
+# Practice problem - 2
+side = float(input("Enter Side : "))
+area = side * side
+
+print("Area is : ", area)
