@@ -24,4 +24,13 @@
 # else:
 #     print("Greatest value is C ", c)
 
+# Practice - 3 : to check if a number is a multiple of 7 or not
+
+num = 49
+
+if num%7 ==0:
+    print("YES")
+else:
+    print("NO")
+    
 
